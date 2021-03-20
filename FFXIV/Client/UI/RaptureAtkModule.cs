@@ -9,8 +9,8 @@ namespace FFXIVClientStructs.FFXIV.Client.UI
     [StructLayout(LayoutKind.Explicit, Size = 0x275E8)]
     public unsafe struct RaptureAtkModule
     {
-        [FieldOffset(0x0)] public void* vtbl;
-        [FieldOffset(0x1A248)] public NamePlateInfo NamePlateInfoArray;  // 0-50, &NamePlateInfoArray[i]
+        [FieldOffset(0x0)]     public void*         vtbl;
+        [FieldOffset(0x19E00)] public NamePlateInfo NamePlateInfoArray; // 0-50, &NamePlateInfoArray[i]
 
         [StructLayout(LayoutKind.Explicit, Size = 0x248)]
         public unsafe struct NamePlateInfo
